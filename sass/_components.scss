@@ -1,0 +1,97 @@
+.btn {
+  font-size: 2.4rem;
+  color: $primary-white;
+  padding: 1.5rem 3rem;
+  background-color: $primary-color;
+  outline: none;
+  margin-left: 1rem;
+  border: none;
+  border-radius: 100px;
+  text-transform: uppercase;
+  font-weight: 700;
+  box-shadow: $shadow;
+  text-decoration: none;
+  &--link {
+    color: $primary-white;
+    text-decoration: none;
+  }
+}
+.btn-dark {
+  background-color: $primary-black;
+}
+
+.btn-form {
+  display: inline-block;
+
+  align-self: center;
+  text-align: center;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.heading-primary {
+  color: $primary-white;
+  font-size: 4rem;
+  text-transform: uppercase;
+  margin-bottom: 4rem;
+}
+
+.heading-secondary {
+  color: $primary-color;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.hidden {
+  display: none;
+}
+.mobile {
+  visibility: hidden;
+}
+
+.dark {
+  color: $primary-black;
+}
+
+.card__heading--main {
+  font-size: 2.8rem;
+  color: $primary-color;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.card__heading--sub {
+  font-size: 2.8rem;
+  color: $primary-black;
+  margin-top: 0.1rem;
+  margin-bottom: 3rem;
+}
+
+.card__paragraph {
+  font-size: 2rem;
+  margin-bottom: 5rem;
+}
+
+.card__btn {
+  border: none;
+  outline: none;
+  background-color: $primary-color;
+  padding: 1.5rem;
+  font-size: 2rem;
+  font-weight: 800;
+  color: $primary-white;
+  text-transform: uppercase;
+  justify-self: center;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.card__text {
+  padding: 0 2rem;
+}

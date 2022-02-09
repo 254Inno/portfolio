@@ -1,0 +1,34 @@
+$primary-color: #124dff;
+$primary-white: #e5ebf9;
+$primary-black: #181919;
+$grey-1: #777;
+$shadow: 2px 5px 20px rgba(0, 0, 0, 0.4);
+$shadow-2: 3px 5px 10px rgba($grey-1, 0.2);
+html {
+  font-size: 62.5%;
+  @media screen and (max-width: 1200px) {
+    font-size: 50%;
+  }
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: $primary-black;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.2;
+}

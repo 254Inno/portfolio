@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/logo.png" />
+    <title>Innocent Nyakangi</title>
+  </head>
+
+  <body>
+    <!----------------------------------------------header nav and hero section-------------------->
+
+    <header class="header">
+      <!----------------------------------------------main navigation-------------------->
+
+      <nav class="nav">
+        <div class="nav__container">
+          <img
+            src="img/logo.png"
+            alt="innocent nyakangi logo"
+            class="nav__logo"
+          />
+          <p class="nav__title">Innocent Nyakangi</p>
+          <ul class="nav__list">
+            <li class="nav__list--item">
+              <a href="#" class="nav__link">Home</a>
+            </li>
+            <li class="nav__list--item">
+              <a href="#services" class="nav__link">Services</a>
+            </li>
+            <li class="nav__list--item">
+              <a href="#works" class="nav__link">Works</a>
+            </li>
+            <li class="nav__list--item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+          </ul>
+
+          <!----------------------------------------------mobile-navigation-------------------->
+
+          <div class="nav__mobile--btn"></div>
+          <ul class="nav__mobile mobile">
+            <li class="nav__mobile--item">
+              <a href="#" class="nav__mobile--link">Home</a>
+            </li>
+            <li class="nav__mobile--item">
+              <a href="#services" class="nav__mobile--link">Services</a>
+            </li>
+            <li class="nav__mobile--item">
+              <a href="#works" class="nav__mobile--link">Work</a>
+            </li>
+            <li class="nav__mobile--item">
+              <a href="#about" class="nav__mobile--link">About</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!----------------------------------------------hero section-------------------->
+
+      <div class="hero container">
+        <div class="hero__background">Innocent</div>
+        <div class="hero__content">
+          <h2 class="hero__content--header">
+            Hi, I am <span>Innocent Nyakangi,</span>
+          </h2>
+          <p class="hero__content--paragraph">
+            a graphic designer who has a good understaning in visual design. I
+            have knowledge in web development also. Just contact me and let your
+            dream design come to live.
+          </p>
+
+          <button class="btn btn-blue">
+            <a href="#" class="btn--link">Talk to me</a>
+          </button>
+
+          <div class="hero__icons">
+            <a
+              href="https://web.facebook.com/profile.php?id=100008755895592"
+              class="hero__icons--link"
+              ><svg class="hero__icon">
+                <use xlink:href="img/sprite.svg#facebook-square"></use></svg
+            ></a>
+            <a
+              href="https://www.instagram.com/innodesigns/"
+              class="hero__icons--link"
+            >
+              <svg class="hero__icon">
+                <use xlink:href="img/sprite.svg#instagram-square"></use>
+              </svg>
+            </a>
+            <a href="https://github.com/254Inno" class="hero__icons--link"
+              ><svg class="hero__icon">
+                <use xlink:href="img/sprite.svg#github-square"></use></svg
+            ></a>
+            <a href="https://wa.me/254796980956" class="hero__icons--link">
+              <svg class="hero__icon">
+                <use xlink:href="img/sprite.svg#whatsapp-square"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <img src="img/box.png" alt="innocent image" class="hero__image" />
+      </div>
+    </header>
+
+    <!----------------------------------------------services section-------------------->
+
+    <div class="services" id="services">
+      <div class="container">
+        <div class="heading">
+          <h5 class="heading-secondary">services</h5>
+          <h3 class="heading-primary">What i do</h3>
+        </div>
+        <div class="services__box">
+          <div class="services__box--info">
+            <div class="services__box--heading">Graphic Design</div>
+            <div class="services__box--paragraph">
+              I do graphic design like web design, brand identity, logos and
+              many more. I have good understanding of color and visual elements.
+            </div>
+          </div>
+          <div class="services__box--info hidden">
+            <div class="services__box--heading">Web Design</div>
+            <div class="services__box--paragraph">
+              I do design websites like the one you are using now i designed it
+              from scratch getting some inspirations from current trends in web
+              design.
+            </div>
+          </div>
+          <div class="services__box--info hidden">
+            <div class="services__box--heading">3D Graphics</div>
+            <div class="services__box--paragraph">
+              I have knowledge in 3d using blender I am eyeing to use my 3d
+              knowledge in Blender with the Three.js framework to make 3d
+              graphics on the web.
+            </div>
+          </div>
+          <!-- <button class="btn">talk</button> -->
+          <div class="services__controls">
+            <svg class="services__icon services__icon--left">
+              <use xlink:href="img/sprite.svg#angle-left"></use>
+            </svg>
+            <svg class="services__icon services__icon--right">
+              <use xlink:href="img/sprite.svg#angle-right"></use>
+            </svg>
+          </div>
+        </div>
+
+        <div class="services__map">
+          <span class="map active"></span>
+          <span class="map"></span>
+          <span class="map"></span>
+        </div>
+      </div>
+    </div>
+
+    <!----------------------------------------------works section-------------------->
+
+    <div class="works" id="works">
+      <div class="container">
+        <div class="heading">
+          <h5 class="heading-secondary">Proof</h5>
+          <h3 class="heading-primary dark">Latest works</h3>
+        </div>
+        <div class="works__box">
+          <div class="works__box--card">
+            <img src="img/web.png" alt="my web picture" class="card-image" />
+            <div class="card__text">
+              <h4 class="card__heading--main">Web development</h4>
+              <p class="card__heading--sub">My portfolio website</p>
+              <p class="card__paragraph">
+                This is my online portfolio website which i designed and
+                developed using HTML, Saas, and Css ,I am updating it as I learn
+                new technologies day by day.
+              </p>
+            </div>
+            <!-- <button class="card__btn">View project</button> -->
+          </div>
+
+          <div class="works__box--card center">
+            <img
+              src="img/whatsapp.jpg"
+              alt="my web picture"
+              class="card-image"
+            />
+
+            <div class="card__text">
+              <h4 class="card__heading--main">Web development</h4>
+              <p class="card__heading--sub">WhatsApp clone</p>
+              <p class="card__paragraph">
+                I am currently sharpening my new skills by attempting to create
+                the UI of WhatsApp both the web and the mobile,trying to
+                implement only frontend.
+              </p>
+            </div>
+            <!-- <button class="card__btn">View project</button> -->
+          </div>
+
+          <div class="works__box--card">
+            <img src="img/web.png" alt="my web picture" class="card-image" />
+
+            <div class="card__text">
+              <h4 class="card__heading--main">Web design</h4>
+              <p class="card__heading--sub">My portfolio website</p>
+              <p class="card__paragraph">
+                The portfolio you are browsing now was designed by in Adobe
+                illustrator, , I have good knowledge in graphic design and
+                experience in Adobe packages.
+              </p>
+            </div>
+            <!-- <button class="card__btn">View project</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----------------------------------------------call to action and about me sections-------------------->
+
+    <div class="cta" id="about">
+      <div class="container">
+        <div class="heading">
+          <h5 class="heading-secondary">services</h5>
+          <h3 class="heading-primary">I will like to hear from you</h3>
+        </div>
+        <div class="cta__box">
+          <div class="cta__box--form">
+            <h3 class="heading-primary dark">Send a message</h3>
+            <form action="#" class="cta__form">
+              <input
+                class="cta__form--input"
+                type="text"
+                placeholder="Your name"
+                required
+              />
+
+              <input
+                class="cta__form--input"
+                type="email"
+                placeholder="Your email"
+                required
+              />
+
+              <input
+                class="cta__form--input"
+                type="textarea"
+                placeholder="Your message"
+              />
+
+              <input
+                type="submit"
+                value="submit"
+                class="btn btn-dark btn-form"
+              />
+            </form>
+          </div>
+          <div class="cta__box--about">
+            <h3 class="heading-primary dark">About me</h3>
+            <p class="cta__paragraph">
+              My name is Innocent Nyakangi, I am a graphic designer and a web
+              developer. I have a year experience in web development mainly
+              frontend, while in graphic design i have more than two years of
+              experience . <br />I graduated with a degree in mass communication
+              which helps me channel and compose my message well.
+            </p>
+            <button class="btn btn-blue">
+              <a href="#" class="btn--link">See my cv</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----------------------------------------------footer-------------------->
+
+    <footer class="footer">
+      <div class="footer__box container">
+        <div class="footer__icons">
+          <a
+            href="https://web.facebook.com/profile.php?id=100008755895592"
+            class="footer__icons--link"
+            ><svg class="footer__icon">
+              <use xlink:href="img/sprite.svg#facebook-square"></use></svg
+          ></a>
+          <a
+            href="https://www.instagram.com/innodesigns/"
+            class="hero__icons--link"
+          >
+            <svg class="footer__icon">
+              <use xlink:href="img/sprite.svg#instagram-square"></use>
+            </svg>
+          </a>
+          <a href="https://github.com/254Inno" class="hero__icons--link">
+            <svg class="footer__icon">
+              <use xlink:href="img/sprite.svg#github-square"></use>
+            </svg>
+          </a>
+          <a href="https://wa.me/254796980956" class="hero__icons--link">
+            <svg class="footer__icon">
+              <use xlink:href="img/sprite.svg#whatsapp-square"></use>
+            </svg>
+          </a>
+        </div>
+        <p class="footer__paragraph">
+          &copy; 2022 Innocent All rights reserved 2021
+        </p>
+      </div>
+    </footer>
+
+    <!----------------------------------------------script-------------------->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
