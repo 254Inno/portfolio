@@ -233,11 +233,12 @@
         <div class="cta__box">
           <div class="cta__box--form">
             <h3 class="heading-primary dark">Send a message</h3>
-            <form action="#" class="cta__form">
+            <form name="contact" class="cta__form" netlify>
               <input
                 class="cta__form--input"
                 type="text"
                 placeholder="Your name"
+                name="name"
                 required
               />
 
@@ -245,6 +246,7 @@
                 class="cta__form--input"
                 type="email"
                 placeholder="Your email"
+                name="email"
                 required
               />
 
@@ -252,6 +254,7 @@
                 class="cta__form--input"
                 type="textarea"
                 placeholder="Your message"
+                name="message"
               />
 
               <input
