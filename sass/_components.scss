@@ -99,3 +99,8 @@
   text-decoration: none;
   color: $primary-white;
 }
+.sticky {
+  position: fixed;
+  background-color: rgba($primary-white, 0.7);
+  width: 100%;
+}
